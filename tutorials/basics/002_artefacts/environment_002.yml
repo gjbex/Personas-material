@@ -1,0 +1,7 @@
+name: tutorial_002
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+prefix: /home/gjb/mambaforge/envs/tutorial_002
