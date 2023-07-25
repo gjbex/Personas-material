@@ -8,4 +8,4 @@ scenario for a screencast or a video presentation.
 ## Modules
 
   * [Files and directories](001_files_and_directories.ipynb)
-  * [Using Python](002_running_python.ipynb)
+  * [Using Python](005_running_python.ipynb)
