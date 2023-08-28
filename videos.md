@@ -8,6 +8,7 @@ videos can be used stand-alone as well, or be mixed into other training material
 
 * [Tutorials using Open OnDemand](https://youtu.be/mvGeF25gDFI)
 * [Using the SSH agent Pageant](https://youtu.be/OVqjyPa9Nlk)
+* [Configuring MoabXTerm](https://youtu.be/dPtCmq1v_ME)
 * [Opening a terminal in Jupyter Lab](https://youtu.be/MzmxjQ6tT9E)
 * [Introducing a pager: less](https://youtu.be/_lsUZc8Qb3k)
 * [Editing files with nano](https://youtu.be/UZefby-10u4)
