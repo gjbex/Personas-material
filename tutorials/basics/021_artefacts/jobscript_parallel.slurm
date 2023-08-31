@@ -16,6 +16,10 @@ alog  --state start
 # initialize the variables
 source <(aenv --data data.csv)
 
+# make this work item take a little longer (i.e., 10 seconds) to complete for demonstration purposes
+# don't put sleep in your own job scripts unless you have a really good reason.
+sleep 10
+
 # actual computation, a bit boring
 echo $(( $i * $j ))
 
