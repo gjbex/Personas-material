@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env -S bash -l
 #SBATCH --account=lp_multiscale_physics
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
