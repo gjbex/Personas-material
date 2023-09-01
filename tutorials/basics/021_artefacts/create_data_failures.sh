@@ -25,17 +25,13 @@ if [ $# -gt 1 ]; then
 fi
 
 # Print the parameter name
-echo "i,j,fail"
+echo "i,j,time"
 
 # Generate the data
 for i in $(seq 1 $i_max); do
     for j in $(seq 1 $j_max); do
-        if [[ 0 == $(( $RANDOM % 3 )) ]]
-        then
-            fail=1
-        else
-            fail=0
-        fi
-        echo $i,$j,$fail
+        # Generate a random integer between 10 and 240
+        time=$(( ( RANDOM % 230 )  + 10 ))
+        echo $i,$j,$time
     done
 done

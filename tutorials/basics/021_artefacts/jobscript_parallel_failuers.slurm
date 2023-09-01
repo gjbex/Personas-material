@@ -4,7 +4,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=1g
-#SBATCH --time=00:05:00
+#SBATCH --time=00:02:00
 
 # make sure the module system starts from a clean slate and load the atools module
 module purge
@@ -18,7 +18,7 @@ source <(aenv --data data_failures.csv)
 
 # make this work item take a little longer (i.e., 10 seconds) to complete for demonstration purposes
 # don't put sleep in your own job scripts unless you have a really good reason.
-sleep 10
+sleep $time
 
 # make the script fail on purpose to illustrate what happens if work items fail
 if [[ $fail != 0 ]]
