@@ -21,14 +21,7 @@ source <(aenv --data data_failures.csv)
 sleep $time
 
 # make the script fail on purpose to illustrate what happens if work items fail
-if [[ $fail != 0 ]]
-then
-    # false will always fail, i.e., have non-zero exit status
-    false
-else
-    # actual computation, a bit boring
-    echo $(( $i * $j ))
-fi
+echo $(( $i * $j ))
 
 # log the end of the work item
 alog  --state end  --exit $?
