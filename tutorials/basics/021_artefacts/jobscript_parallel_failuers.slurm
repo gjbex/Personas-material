@@ -1,5 +1,5 @@
 #!/usr/bin/env -S bash -l
-#SBATCH --account=lp_multiscale_physics
+#SBATCH --account=lp_tutorial
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
